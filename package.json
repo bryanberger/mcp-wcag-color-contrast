@@ -2,14 +2,12 @@
   "name": "wcag-mcp-server",
   "version": "1.0.0",
   "description": "MCP server for WCAG color contrast checking tools",
-  "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "build": "bun build src/index.ts --outdir dist --target bun",
     "dev": "bun run --watch src/index.ts",
     "start": "bun run dist/index.js",
-    "test": "bun run test-server.ts",
-    "type-check": "tsc --noEmit"
+    "test-server": "bun run test-server.ts"
   },
   "keywords": [
     "mcp",
@@ -33,8 +31,7 @@
   },
   "devDependencies": {
     "@types/bun": "latest",
-    "@types/culori": "^4.0.1",
-    "typescript": "^5.6.3"
+    "@types/culori": "^4.0.1"
   },
   "engines": {
     "bun": ">=1.0.0"

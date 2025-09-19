@@ -96,9 +96,9 @@ Supports any format Culori can parse:
 ## Development
 
 ```bash
-bun run dev        # Development with hot reload
-bun run build      # Build for production  
-bun run type-check # TypeScript validation
+bun run dev   # Development with hot reload
+bun run build # Build for production  
+bun run test-server  # Test the mcp server
 ```
 
 ## License
