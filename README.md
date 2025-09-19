@@ -2,6 +2,12 @@
 
 A Model Context Protocol (MCP) server for WCAG color contrast checking and accessibility analysis. Built with Bun, TypeScript, and Culori.
 
+## Rationale
+
+LLMs will attempt to give you WCAG contrast scores for color pairs, but they are often inaccurate because the LLM is not running the actual equations for determine contrast between colors. This MCP server provides that capability.
+
+![Demo of WCAG MCP Server](.github/demo.png)
+
 ## Quick Start
 
 ```bash
