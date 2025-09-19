@@ -1,0 +1,42 @@
+{
+  "name": "wcag-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for WCAG color contrast checking tools",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "bun build src/index.ts --outdir dist --target bun",
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run dist/index.js",
+    "test": "bun run test-server.ts",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "mcp",
+    "wcag",
+    "accessibility",
+    "color",
+    "contrast",
+    "a11y"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/wcag-mcp-server.git"
+  },
+  "homepage": "https://github.com/yourusername/wcag-mcp-server#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "culori": "^4.0.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/culori": "^4.0.1",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
+  }
+}

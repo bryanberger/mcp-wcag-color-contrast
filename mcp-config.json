@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "wcag": {
+      "command": "bun",
+      "args": ["run", "start"],
+      "cwd": "/path/to/wcag-mcp-server"
+    }
+  }
+}
