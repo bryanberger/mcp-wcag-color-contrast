@@ -64,7 +64,7 @@ class WCAGServer {
               ]
             };
 
-          case 'analyze_color_accessibility':
+          case 'get_color_luminance':
             return {
               content: [
                 {
@@ -84,7 +84,7 @@ class WCAGServer {
               ]
             };
 
-          case 'batch_contrast_analysis':
+          case 'batch_contrast':
             return {
               content: [
                 {

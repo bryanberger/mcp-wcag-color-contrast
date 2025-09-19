@@ -43,8 +43,8 @@ Calculate WCAG contrast ratio between two colors.
 
 Returns ratio, compliance levels, and color details.
 
-### `analyze_color_accessibility`
-Analyze single color properties.
+### `get_color_luminance`
+Get color luminance value and format conversions.
 
 ```json
 {
@@ -66,7 +66,7 @@ Check specific WCAG compliance.
 }
 ```
 
-### `batch_contrast_analysis`
+### `batch_contrast`
 Analyze multiple color pairs.
 
 ```json

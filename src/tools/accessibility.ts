@@ -9,8 +9,8 @@ const AccessibilityAnalysisSchema = z.object({
 });
 
 export const accessibilityAnalysisTool: Tool = {
-  name: 'analyze_color_accessibility',
-  description: 'Analyze color accessibility properties including luminance and color format conversions.',
+  name: 'get_color_luminance',
+  description: 'Get color luminance value and format conversions.',
   inputSchema: {
     type: 'object',
     properties: {

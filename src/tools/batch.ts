@@ -16,7 +16,7 @@ const BatchContrastSchema = z.object({
 });
 
 export const batchContrastTool: Tool = {
-  name: 'batch_contrast_analysis',
+  name: 'batch_contrast',
   description: 'Analyze WCAG contrast ratios for multiple color pairs at once. Useful for checking entire color palettes or design systems.',
   inputSchema: {
     type: 'object',

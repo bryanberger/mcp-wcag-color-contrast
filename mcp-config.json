@@ -3,7 +3,7 @@
     "wcag": {
       "command": "bun",
       "args": ["run", "start"],
-      "cwd": "/path/to/wcag-mcp-server"
+      "cwd": "/Users/bryanberger/dev/mcps/wcag-mcp-server"
     }
   }
 }
